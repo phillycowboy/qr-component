@@ -1,0 +1,49 @@
+/* styles for qr component */
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.qr-component {
+  background-color: white;
+  width: 40vh;
+  height: auto;
+  border-radius: 30px;
+  margin: 10rem 10rem 3rem 10rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.qr-code > img {
+  border-radius: 30px;
+  width: 90%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.title > p { 
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 2rem 1rem 2rem;
+}
+
+.info > p {
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  padding: 0 2rem 1rem 2rem;
+}
+
